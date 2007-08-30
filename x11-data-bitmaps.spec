@@ -1,12 +1,11 @@
 Name: x11-data-bitmaps
 Version: 1.0.1
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: Bitmaps that are shared between X applications
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/data/xbitmaps-%{version}.tar.bz2
 License: MIT
 BuildRoot: %{_tmppath}/%{name}-root
-
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
@@ -35,8 +34,7 @@ fi
 
 %files
 %defattr(-,root,root)
+%doc COPYING
 %dir %{_includedir}/X11/bitmaps
 %{_includedir}/X11/bitmaps/*
 %{_libdir}/pkgconfig/xbitmaps.pc
-
-
