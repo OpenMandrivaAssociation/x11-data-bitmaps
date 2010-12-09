@@ -1,5 +1,5 @@
 Name: x11-data-bitmaps
-Version: 1.1.0
+Version: 1.1.1
 Release: %mkrel 1
 Summary: Bitmaps that are shared between X applications
 Group: Development/X11
