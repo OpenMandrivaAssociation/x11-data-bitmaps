@@ -16,7 +16,7 @@ Bitmaps that are shared between X applications
 %setup -q -n xbitmaps-%{version}
 
 %build
-%configure	--x-includes=%{_includedir}\
+%configure2_5x	--x-includes=%{_includedir}\
 		--x-libraries=%{_libdir}
 
 %make
@@ -38,4 +38,4 @@ fi
 %doc COPYING
 %dir %{_includedir}/X11/bitmaps
 %{_includedir}/X11/bitmaps/*
-%{_libdir}/pkgconfig/xbitmaps.pc
+%{_datadir}/pkgconfig/xbitmaps.pc
