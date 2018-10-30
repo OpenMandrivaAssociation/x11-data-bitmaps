@@ -1,6 +1,6 @@
 Name:		x11-data-bitmaps
 Version:	1.1.2
-Release:	4
+Release:	5
 Summary:	Bitmaps that are shared between X applications
 Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/data/xbitmaps-%{version}.tar.bz2
