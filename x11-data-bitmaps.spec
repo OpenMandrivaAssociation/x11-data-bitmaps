@@ -1,16 +1,16 @@
 Name:		x11-data-bitmaps
-Version:	1.1.2
-Release:	5
+Version:	1.1.3
+Release:	1
 Summary:	Bitmaps that are shared between X applications
 Group:		Development/X11
-Source0:	http://xorg.freedesktop.org/releases/individual/data/xbitmaps-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/data/xbitmaps-%{version}.tar.xz
 Source1:	x11-data-bitmaps.rpmlintrc
 License:	MIT
-BuildRequires:	x11-util-macros >= 1.1.5
+BuildRequires:	pkgconfig(xorg-macros)
 BuildArch:	noarch
 
 %description
-Bitmaps that are shared between X applications
+Bitmaps that are shared between X applications.
 
 %package devel
 Summary:	Development files for %{name}
